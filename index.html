@@ -1,0 +1,59 @@
+<div class="forms">
+  <form id="gform" enctype="text/plain" name="gform" target="hidden_iframe" onsubmit="submit=true;"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSfqnUG12MhwlEdHWlFUperFIRUhVD_c5lcn5qLnVews-eLevQ/formResponse?">
+  <label for="entry.975161831">Name</label><br>
+  <input class="form-control" type="text" name="entry.369486146" id="entry.369486146"><br>
+  
+  <label for="entry.1074451043">Email</label><br>
+  <input type="text" class="form-control" name="entry.585314899" id="entry.585314899"><br>
+  
+  <label for="entry.635531583">Message</label><br>
+  <textarea type="text" class="form-control" name="entry.259508353" id="entry.259508353" rows="4" cols="50"></textarea><br>
+  
+  <input type="submit" class="form-control" name="" id="test" value="Submit">
+  </form>
+  
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+</div>
+<iframe class="sheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vShszrMDDnVYnSx3bcK7xpGhBqaWlqEJsk6ZMlhV5gBgSZVHRkRNreIo9djXL-qIu5L9KAfV249t3b-/pubhtml?widget=true&amp;headers=false"></iframe>
+<style>
+  form{
+    margin-top: 50px;
+    margin-left:7.5%;
+    transition: all 4s ease;
+  }
+      
+  .form-control{
+    width: 85%;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid  #2377E1;
+    font-size: 18px;
+    margin-bottom: 16px;
+  } 
+  input{height: 45px;}
+  #test{
+    background:#2377E1;;
+    border-color: transparent;
+    color: white;
+    font-size: 20;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  #test:hover{
+    background:#fff;
+    color:#2377E1;
+    border: 2px solid #2377E1;
+    transition: all 0.2s ease-in-out;
+  }
+  .sheet{
+    width:70%;
+    height:30%;
+    margin-left:15%;
+  }
+</style>
+  
